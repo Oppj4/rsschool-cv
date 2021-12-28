@@ -1,1 +1,1 @@
-# rsschool-cv
+https://Oppj4.github.io/rsschool-cv/
