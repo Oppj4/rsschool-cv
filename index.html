@@ -1,12 +1,96 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="shortcut icon" href="images/favicon.ico" type="image/x-icon">
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300&family=Source+Sans+Pro:wght@600&display=swap" rel="stylesheet">
+
+	<link rel="stylesheet" type="text/css" href="./style.css">
+	<title>CV.Vekshin Danila</title>
 </head>
 <body>
-    
+	<div class="wrapper">
+		<header class="header">
+		  <nav class="nav-main">
+			<ul class="nav-items">
+			  <li class="nav-item"><a href="#about">About</a></li>
+			  <li class="nav-item"><a href="#contacts">Contacts</a></li>
+			  <li class="nav-item"><a href="#Language">Languages</a></li>
+			  <li class="nav-item last"><a href="#code">Code</a></li>
+			</ul>
+		  </nav>
+		  <div class="header-main">
+		  	<div class="img-container">
+			  <img src="./images/avatar.jpg" alt="avatar" class="image">
+			  <h1 class="main-title">Vekshin Danila</h1>
+			</div>
+		   </div>
+		</header>
+		<main class="main-wrap">
+			<section class="info">
+				<h2 class="title" id="contacts">Contacts</h2>
+				  <ul class="list-contacts">
+					<li class="list-item"><img  src="images/telephone.png" alt="Phone Logo">
+						<span>+7(977)-631-22-26</span></li>
+					<li class="list-item"><img  src="images/telegram.png"  alt="telegram Logo">
+						<span><a href="https://t.me/lanArch1">Telegram</a></span></li>
+					<li class="list-item"><img  src="images/GitHub-Mark-32px.png"  alt="Github Logo">
+						<span><a href="https://github.com/Oppj4/">GitHub</a></span></li>
+				  </ul>
+			  </section>
+		  <section class="info">
+			<h2 class="title" id="about">About</h2>
+			<p class="about-text">
+				I am a certified programmer and I want to become
+				a front-end developer. I already have some idea about: HTML, CSS, 
+				JS; And I want to get acquainted with them more deeply.
+			</p>
+		  </section>
+		  <section class="info">
+			<h2 class="title">Experience & Education</h2>
+			  <ul class="list">
+				<li class="list-item">SPK(Sergiev Posad College) for the specialty applied computer science</li>
+				<li class="list-item">Stepik/PuthonForBegginer</li>
+				<li class="list-item">HTML/Academy/HTML&CSS Basics</li>
+			  </ul>
+		  </section>
+		  <section class="info">
+			<h2 class="title">Skills</h2>
+			<ul class="list">
+			  <li class="list-item">HTML</li>
+			  <li class="list-item">CSS</li>
+			  <li class="list-item">Git</li>
+			</ul>
+		  </section>
+		  <section class="info">
+			<h2 class="title" id="Language">Languages</h2>
+			<ul class="list">
+			  <li class="list-item">Russian: Native</li>
+			  <li class="list-item">English: A2(Pre-Intermediate)</li>
+			</ul>
+		  </section>
+		  <section class="info code-wrap">
+			<h2 class="title">Code example</h2>
+			<pre>
+			  <code class="snippet" id=code>
+				<span>function greet() {</span>
+					<span>return( 'hello world!' );</span>
+				 <span>}</span>
+			  </code>
+			</pre>
+		  </section>
+		  <footer class="footer-main">
+			<ul class="footer-info">
+			  <li><a href="https://rs.school/js/"><img src="https://rs.school/images/rs_school_js.svg" width="100" height="64" alt="RS School logo"></a></li>
+			  <li><h2>2021</h2></li>
+			  <li><a href="https://github.com/Oppj4" ><img src="images/GitHub-Mark-64px.png"  alt="Github icon"></a></li>
+			</ul>
+		  </footer>
+		</main>
+	  </div>
 </body>
 </html>
